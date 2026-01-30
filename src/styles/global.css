@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Futura";
+  src: local("Futura");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Futura", Arial, sans-serif;
+  background-color: var(--white);
+  color: var(--dark-text);
+  line-height: 1.6;
+}
