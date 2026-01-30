@@ -1,0 +1,177 @@
+.services-page {
+  background: #ffffff;
+}
+
+/* Header */
+.services-header {
+  padding: 120px 24px 80px;
+  text-align: center;
+  background: #f6f9fb;
+}
+
+.services-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 12px;
+}
+
+.services-header p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+/* Overview */
+.services-overview {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.services-overview h2 {
+  margin-bottom: 20px;
+}
+
+.services-overview p {
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Core Services */
+.services-grid-section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 24px 120px;
+}
+
+.services-grid-section h2 {
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.service-card {
+  padding: 40px;
+  border-radius: 24px;
+  background: #f6f9fb;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.service-card h3 {
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: #555;
+}
+
+/* Process */
+.process-section {
+  background: #0f4f63;
+  color: #fff;
+  padding: 120px 24px;
+}
+
+.process-section h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.process-steps {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.process-step {
+  text-align: center;
+}
+
+.process-step span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #9fd4e4;
+}
+
+.process-step h4 {
+  margin: 12px 0;
+}
+
+/* Value Section */
+.value-section {
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.value-grid {
+  max-width: 900px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.value-grid p {
+  background: #f6f9fb;
+  padding: 18px;
+  border-radius: 14px;
+}
+
+/* Why Us */
+.why-us-section {
+  background: #f6f9fb;
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.why-us-list {
+  max-width: 600px;
+  margin: 40px auto 0;
+  list-style: none;
+  padding: 0;
+}
+
+.why-us-list li {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+/* CTA */
+.services-cta {
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 36px;
+  background: #156082;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  background: #0f4f63;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .services-grid,
+  .process-steps,
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+}
