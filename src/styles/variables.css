@@ -1,6 +1,8 @@
 :root {
-  --primary: #156082;
+  --primary: #156082;        /* Theme color */
+  --primary-soft: #e6f1f4;   /* Light background sections */
   --white: #ffffff;
-  --light-gray: #f5f7f8;
-  --dark-text: #1c1c1c;
+  --text-dark: #1c1c1c;
+  --text-muted: #666666;
+  --border-light: rgba(0, 0, 0, 0.08);
 }
